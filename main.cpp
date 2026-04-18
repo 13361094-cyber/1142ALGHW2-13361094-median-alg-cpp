@@ -64,7 +64,7 @@ int findWeightedMedian(vector<Item> items) {
         cumulativeWeight += item.w;
         cout<<"x="<<item.x
             <<",w="<<fixed<<setprecision(2)<<item.w
-            <<",cumulation = "<<cululative<<"\n";
+            <<",cumulation = "<<cumulativeWeight<<"\n";
         if(cumulativeWeight>=0.5){
             return item.x;
         }
